@@ -1,4 +1,4 @@
-from local.keyutils.vectors import Vector # PROBLEM
+from kbasic.vectors import Vector 
 
 class PixelPosition(Vector):
     def __init__(self, x=0, y=0) -> None:

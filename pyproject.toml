@@ -1,10 +1,14 @@
 [project]
 name = "kgui"
 version = "0.1.1"
-description = "Add your description here"
+description = "Keyan's wrapper for pygame to make quick apps and guis."
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "kbasic>=0.1.2",
+    "numpy>=2.4.2",
+    "pygame>=2.6.1",
+]
 
 [build-system]
 requires = ["uv_build>=0.10.2,<0.11.0"]
