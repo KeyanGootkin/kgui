@@ -3,6 +3,9 @@ name = "kgui"
 version = "0.1.1"
 description = "Keyan's wrapper for pygame to make quick apps and guis."
 readme = "README.md"
+authors = [
+  { name="Keyan Gootkin", email="keyangootkin@gmail.com" },
+]
 requires-python = ">=3.11"
 dependencies = [
     "kbasic>=0.1.2",
